@@ -18,7 +18,23 @@ body{
     color: #07111F;
 }
 
+div#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 div#container header{
     padding-block: 2rem;
     text-align: center;
+}
+
+div#container header h1{
+    font-weight: 500;
+}
+
+div#container div.imagem img{
+    border-radius: 50%;
+    box-shadow: 1px 4px 10px #000;
 }
