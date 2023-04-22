@@ -12,4 +12,13 @@ html{
 
 body{
     font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(45deg, #045C50, #1F5C54, #07A893, #08DBBF, #4DE1CD);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #07111F;
+}
+
+div#container header{
+    padding-block: 2rem;
+    text-align: center;
 }
