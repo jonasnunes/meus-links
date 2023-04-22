@@ -8,6 +8,7 @@
 
 html{
     min-height: 100vh;
+    position: relative;
 }
 
 body{
@@ -15,7 +16,7 @@ body{
     background-image: linear-gradient(45deg, #045C50, #1F5C54, #07A893, #08DBBF, #4DE1CD);
     background-attachment: fixed;
     background-repeat: no-repeat;
-    color: #07111F;
+    font-weight: 300;
 }
 
 div#container{
@@ -23,18 +24,70 @@ div#container{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 2rem;
 }
 
 div#container header{
-    padding-block: 2rem;
+    padding-top: 2rem;
     text-align: center;
 }
 
 div#container header h1{
     font-weight: 500;
+    color: #1d2020;
+}
+
+div#container div.imagem{
+    margin-bottom: 1rem;
 }
 
 div#container div.imagem img{
     border-radius: 50%;
     box-shadow: 1px 4px 10px #000;
+}
+
+div#container div.links{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+div#container div.links button{
+    background-color: transparent;
+    border: 2px solid #08DBBF;
+    border-radius: .5rem;
+    padding-block: .8rem;
+    width: 10rem;
+    cursor: pointer;
+    transition: .5s;
+    
+    display: flex;
+    gap: .5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+div#container div.links button:hover{
+    transform: translateY(-5px);
+}
+
+div#container div.links button a,
+div#container div.links button i{
+    color: #1d2020;
+    transition: .5s;
+    font-size: 1rem;
+}
+
+div#container div.links button a:hover{
+    color: #4DE1CD;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    padding-block: 2rem;
+}
+
+footer p{
+    color: #1d2020;
 }
