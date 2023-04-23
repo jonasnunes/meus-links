@@ -60,6 +60,7 @@ div#container div.links button{
     background-color: transparent;
     border: 2px solid #22D4FD;
     border-radius: .5rem;
+    box-shadow: 1px 1px 6px #22D4FD;
     padding-block: .8rem;
     width: 10rem;
     cursor: pointer;
