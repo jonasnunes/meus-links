@@ -15,14 +15,14 @@ body{
     font-weight: 300;
     max-width: 480px;
     margin: auto;
-    background-color: #08DBBF;
+    background-color: #222;
 }
 
 div#container{
-    background-image: linear-gradient(45deg, #045C50, #1F5C54, #07A893, #08DBBF, #4DE1CD);
+    background-color: #111;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    box-shadow: 1px 4px 10px #000;
+    box-shadow: 1px 4px 10px #F6F6F6;
     
     display: flex;
     flex-direction: column;
@@ -38,7 +38,7 @@ div#container header{
 
 div#container header h1{
     font-weight: 500;
-    color: #1d2020;
+    color: #22D4FD;
 }
 
 div#container div.imagem{
@@ -47,7 +47,7 @@ div#container div.imagem{
 
 div#container div.imagem img{
     border-radius: 50%;
-    box-shadow: 1px 4px 10px #000;
+    box-shadow: 1px 1px 12px #F6F6F6;
 }
 
 div#container div.links{
@@ -58,7 +58,7 @@ div#container div.links{
 
 div#container div.links button{
     background-color: transparent;
-    border: 2px solid #08DBBF;
+    border: 2px solid #22D4FD;
     border-radius: .5rem;
     padding-block: .8rem;
     width: 10rem;
@@ -77,7 +77,7 @@ div#container div.links button:hover{
 
 div#container div.links button a,
 div#container div.links button i{
-    color: #1d2020;
+    color: #22D4FD;
     transition: .5s;
     font-size: 1rem;
 }
@@ -91,5 +91,5 @@ footer{
 }
 
 footer p{
-    color: #1d2020;
+    color: #22D4FD;
 }
