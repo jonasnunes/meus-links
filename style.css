@@ -22,7 +22,7 @@ div#container{
     background-color: #111;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    box-shadow: 1px 4px 10px #F6F6F6;
+    box-shadow: 1px 4px 10px #22D4FD;
     
     display: flex;
     flex-direction: column;
@@ -47,7 +47,7 @@ div#container div.imagem{
 
 div#container div.imagem img{
     border-radius: 50%;
-    box-shadow: 1px 1px 12px #F6F6F6;
+    box-shadow: 1px 1px 12px #22D4FD;
 }
 
 div#container div.links{
@@ -81,10 +81,6 @@ div#container div.links button i{
     color: #22D4FD;
     transition: .5s;
     font-size: 1rem;
-}
-
-div#container div.links button a:hover{
-    color: #4DE1CD;
 }
 
 footer{
